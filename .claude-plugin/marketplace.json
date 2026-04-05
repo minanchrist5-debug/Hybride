@@ -1,0 +1,22 @@
+{
+  "name": "anthropic-skills",
+  "version": "1.0.0",
+  "description": "Skills for building LLM-powered applications with the Anthropic Claude API and Agent SDK",
+  "author": "Anthropic",
+  "repository": "https://github.com/minanchrist5-debug/hybride",
+  "skills": [
+    {
+      "name": "claude-api",
+      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, or user asks about Claude Code CLI features.",
+      "path": "skills/claude-api/SKILL.md",
+      "triggers": [
+        "anthropic",
+        "@anthropic-ai/sdk",
+        "claude_agent_sdk",
+        "claude api",
+        "anthropic sdk",
+        "agent sdk"
+      ]
+    }
+  ]
+}
